@@ -1,4 +1,4 @@
-const lastYear = (new Date()).getFullYear() - 1;
+const lastYear = (new Date()).getFullYear() - 2;
 
 // Get all the crimes for the given parameters. progressFunction is called every time 1 of the 12 months is loaded.
 export async function getCrimes(lat, lng, progressFunction) {
